@@ -131,9 +131,9 @@
 .container .item-bar{
     display: flex;
     align-items: center;
-    justify-content: space-between
+    
 }
-.item-bar .number{
+.item-bar .number {
     font-weight: 600;
     font-size: 28px;
     color: #3d4152;
@@ -166,6 +166,35 @@
 .filters div:hover{
     border-bottom: 2px solid #282c3f;
 } 
+.head{
+    font-weight: 600;
+    font-size: 20px;
+    color: #3d4152;
+   
+}
+.item-img .item-bar{
+    margin: 0;
+    padding: 0;
+}
+.item-img{
+    
+    border-bottom: 2px solid #d3d5df;
+    display: flex;
+    align-items: center;
+    height: 177px;
+    
+    
+}
+img{
+    display: flex;
+    align-items: center;
+    display: grid;
+    background: #eef0f5;
+}
+.image-icon{
+    height: 180px;
+    width: auto;
+}
 .restaurant-list {
     margin-bottom: 85px;
     display: grid;
